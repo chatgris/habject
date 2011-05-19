@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name             = "habject"
-  s.version          = "0.1.0"
+  s.version          = "0.1.1"
   s.date             = Time.now.utc.strftime("%Y-%m-%d")
   s.homepage         = "http://github.com/chatgris/habject"
   s.authors          = "chatgris"
