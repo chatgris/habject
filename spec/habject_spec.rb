@@ -20,11 +20,11 @@ describe Habject do
 
   context 'with a symbolize hash' do
     it 'should respond to plop' do
-      hash.should respond_to(:plop)
+      symbol_hash.should respond_to(:plop)
     end
 
     it 'should return value' do
-      hash.plop.should == 'flop'
+      symbol_hash.plop.should == 'flop'
     end
   end
 
